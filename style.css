@@ -7,6 +7,6 @@ a{
 }
 header table{
     background-color: rgb(255, 153, 10);
-    border-radius: 0.8em;
-    padding: 0.4em;
+    border-radius: 10px;
+    padding: 5px;
 }
