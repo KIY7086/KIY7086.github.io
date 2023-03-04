@@ -6,6 +6,7 @@ a{
     text-decoration: none;
 }
 header table{
+    border: solid;
     background-color: rgb(255, 153, 10);
     border-radius: 10px;
     padding: 5px;
