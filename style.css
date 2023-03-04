@@ -3,10 +3,12 @@ header{
     margin-top: 0.5%;
 }
 a{
+    display: block;
     text-decoration: none;
 }
 header table{
-    border: solid;
+    float: inherit;
+    border: solid rgb(60, 210, 255) 2px;
     background-color: rgb(255, 153, 10);
     border-radius: 10px;
     padding: 5px;
