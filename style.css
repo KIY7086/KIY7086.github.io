@@ -1,15 +1,38 @@
 header{
-    text-align: center;
     margin-top: 0.5%;
+}
+h1{
+    text-align: center;
 }
 a{
     display: block;
     text-decoration: none;
 }
-header table{
-    float: inherit;
-    border: solid rgb(60, 210, 255) 2px;
-    background-color: rgb(255, 153, 10);
-    border-radius: 10px;
-    padding: 5px;
+#body{
+    text-align: center;
+}
+.card{
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: #d3d3d3 3px;
+}
+header ul{
+    text-align-last: justify; /*最后一行（导航栏）分散对齐*/
+    border: none;
+    background-color: #ff990a;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none; /*去掉小圆点*/
+}
+header ul li{
+    display: inline; /*使无序列表横向排列*/
 }
