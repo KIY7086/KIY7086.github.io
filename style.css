@@ -33,6 +33,6 @@ header ul{
     padding-bottom: 10px;
     list-style-type: none; /*去掉小圆点*/
 }
-header ul li{
+ul li{
     display: inline; /*使无序列表横向排列*/
 }
