@@ -14,7 +14,6 @@ window.onload=function()
         var hour=d.getHours();
         var minute=d.getMinutes();
         var second=d.getSeconds();
-        if(days<10) days="0"+days;
         if(hour<10) hour="0"+hour;
         if(minute<10) minute="0"+minute;
         if(second<10) second="0"+second;
@@ -23,6 +22,6 @@ window.onload=function()
         var Time=+hour+":"+minute;
         Tools.innerHTML=Time;
         var Tools=document.getElementById("myweek");
-        var MonthDateWeek=month+"月"+day+"日"+week[day];
+        var MonthDateWeek=month+"月"+days+"日"+week[day];
         Tools.innerHTML=MonthDateWeek;
     }
