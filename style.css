@@ -21,6 +21,7 @@ h1 {
   -webkit-background-clip: text;
   -moz-background-clip: text;
   animation: ran 10s linear infinite;
+  cursor: pointer;
 }
 
 @keyframes ran {
